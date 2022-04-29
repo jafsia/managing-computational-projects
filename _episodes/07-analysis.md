@@ -260,24 +260,7 @@ It is usually cleaner to keep data visualisation code separate from analysis, ju
 ---
 
 ## Data exploration and insights 
-
-
-Let us now create two different DataFrames and perform the merging operations on it.
-```
-# import the pandas library
-import pandas as pd
-left = pd.DataFrame({
-         'id':[1,2,3,4,5],
-         'Name': ['Alnus', 'Agrostis', 'Betula', 'Vaccinium', 'Dactylis'],
-         'subject_id':['sub1','sub2','sub4','sub6','sub5']})
-right = pd.DataFrame(
-         {'id':[1,2,3,4,5],
-         'Name': ['Calune', 'Fallopia', 'Stachys', 'Stellaria', 'tiphy'],
-         'subject_id':['sub2','sub4','sub3','sub6','sub5']})
-print left
-print right
-```
-
+- Data Wranglibg
 - Data Visualisation as a tool
   - Reference: https://helenajambor.wordpress.com/2022/01/04/science-visualization-trends-of-2021/
 
